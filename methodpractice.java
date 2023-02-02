@@ -1,3 +1,5 @@
+package method;
+
 public class methodpractice
 {
      static int max(int x, int y)

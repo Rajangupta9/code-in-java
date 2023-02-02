@@ -1,4 +1,4 @@
-package Objectvsclass;
+package method;
 
 class circle
 {

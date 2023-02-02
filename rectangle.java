@@ -1,4 +1,5 @@
-package Objectvsclass;
+
+package method;
 
 class rectangelone
 {
