@@ -37,10 +37,32 @@ public class inputofarray {
     
     public static void main(String[] args){
      
+        try(Scanner scan=new Scanner(System.in)){
        int[] arr = takeinput();
        printArray(arr);
        int lar=large(arr);
        System.out.println(lar);
+       System.out.println("linear search");
+       int key = scan.nextInt();
+       linearsearch(arr,key);
+       
+
+        }
 
     }
+
+    private static void linearsearch(int[] arr, int key) {
+        int i=0;
+    while(i<arr.length){
+        if(arr[i]==key){
+            System.out.println("matched idex no"+i);
+
+        }
+        else{
+            System.out.println("not found");
+        }
+        }
+    }
+
+    
 }

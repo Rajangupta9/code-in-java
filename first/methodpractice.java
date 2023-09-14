@@ -1,4 +1,4 @@
-package method;
+package first;
 
 public class methodpractice
 {

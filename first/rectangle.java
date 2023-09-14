@@ -1,5 +1,5 @@
 
-package method;
+package first;
 
 class rectangelone
 {
